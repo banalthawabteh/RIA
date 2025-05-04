@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>نموذج التسجيل - أكاديمية ريتال</title>
+    <style>
+        body {
+            background-color: #1d2d50;
+            color: white;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff7f00;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #ff7f00;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 30px auto;
+            background-color: #133b5c;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 15px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff7f00;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: white;
+            color: #1d2d50;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #ff7f00;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background-color: white;
+            color: #1d2d50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>نموذج التسجيل</h1>
+    </header>
+
+    <h2>سجّل الآن في برامج BTEC</h2>
+
+    <form action="#" method="post">
+        <input type="text" name="fullname" placeholder="الاسم الكامل" required>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        
+        <select name="program" required>
+            <option value="" disabled selected>اختر البرنامج</option>
+            <option value="btec3">Level 3 BTEC National</option>
+            <option value="btec2">Level 2 BTEC International</option>
+        </select>
+
+        <input type="submit" value="إرسال">
+    </form>
+
+    <a href="index.html" class="button">العودة إلى الصفحة الرئيسية</a>
+</body>
+</html>
