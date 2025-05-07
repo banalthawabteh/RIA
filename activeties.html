@@ -1,124 +1,137 @@
 <!DOCTYPE html>
 <html lang="ar">
-  <head>
-    <meta charset="UTF-8" />
-    <title>قسم BTEC</title>
-    <style>
-      body {
-        background-color: #1d2d50;
-        color: white;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        direction: rtl;
-        margin: 0;
-        padding: 0;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نشاطات أكاديمية ريتال الدولية</title>
+  <style>
+    body {
+      background-color: #1d2d50;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-      header {
-        background-color: #ff7f00;
-        padding: 20px;
-      }
+    header {
+      background-color: #ff7f00;
+      padding: 20px;
+    }
 
-      /* تنسيق التوبيبات */
-      nav {
-        background-color: #ff7f00;
-        padding: 10px;
-      }
+    h1 {
+      font-size: 36px;
+    }
 
-      nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 20px;
-        font-size: 18px;
-        font-weight: bold;
-      }
+    .section {
+      background-color: #133b5c;
+      padding: 40px 20px;
+      margin: 40px 0;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: 20px auto;
+      text-align: right;
+    }
 
-      nav a:hover {
-        color: #1d2d50;
-      }
+    .section h2 {
+      font-size: 30px;
+      color: #f5f5f5;
+      margin-bottom: 20px;
+    }
 
-      .carousel-container {
-        position: relative;
-        width: 100%;
-        height: 100vh; /* ملء الشاشة بالكامل */
-        display: flex;
-        justify-content: center; /* توسيط الصورة أفقياً */
-        align-items: center; /* توسيط الصورة رأسياً */
-      }
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
 
-      .carousel-track {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-      }
+    .video-container {
+      max-width: 900px;
+      margin: 20px auto;
+    }
 
-      .carousel-track img {
-        width: 800px; /* زيادة الحجم */
-        height: 600px; /* زيادة الحجم */
-        margin: 0;
-        border-radius: 10px;
-        border: 4px solid #ff7f00;
-      }
+    .video-container iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 10px;
+    }
 
-      .text-content {
-        margin-top: 40px;
-        font-size: 18px;
-        line-height: 1.8;
-        padding: 0 10%;
-      }
+    .buttons {
+      margin: 40px 0;
+    }
 
-      a.button {
-        display: inline-block;
-        margin: 30px 10px;
-        background-color: #ff7f00;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: 0.3s;
-      }
+    .button {
+      display: inline-block;
+      background-color: #ff7f00;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
 
-      a.button:hover {
-        background-color: white;
-        color: #1d2d50;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>قسم BTEC</h1>
-    </header>
+    .button:hover {
+      background-color: white;
+      color: #1d2d50;
+    }
+  </style>
+</head>
+<body>
 
-    <!-- التوبيبات -->
-    <nav>
-      <a href="organization.html">الهيكل التنظيمي</a>
-      <a href="result_student.html">نتائج الطلبة</a>
-      <a href="STUDENT_PROJECTS.HTML">مشاريع الطلبة</a>
-      <a href="activeties.html">نشاطات</a>
-    </nav>
+  <header>
+    <h1>نشاطات أكاديمية ريتال الدولية</h1>
+  </header>
 
-    <div class="text-content">
-      <p><strong>BTEC Jordan Project</strong></p>
-      <p>Business and Technology Education Council</p>
-      <p>البرنامج التقني – المهني – الصناعي</p>
-      <p>اعتمدت وزارة التربية والتعليم برنامج BTEC من مؤسسة بيرسون البريطانية.</p>
-      <p>هذا النظام معتمد في العديد من الدول والجامعات حول العالم، ويؤهل الطلبة لسوق العمل بمهارات تقنية.</p>
-      <p>وقد اعتمدت مدارس أكاديمية ريتال هذا البرنامج في التخصصات التالية:</p>
-      <ul>
-        <li>إدارة الأعمال Business</li>
-        <li>تكنولوجيا المعلومات Information Technology</li>
-      </ul>
+  <!-- افتتاح قسم BTEC تكنولوجيا المعلومات وإدارة الأعمال 2024/2025 -->
+  <div class="section">
+    <h2>افتتاح قسم BTEC لتكنولوجيا المعلومات وإدارة الأعمال 2024/2025</h2>
+    <p>
+      يسر أكاديمية ريتال الدولية أن تعلن عن افتتاح قسم BTEC الجديد لعام 2024/2025 في تخصصات تكنولوجيا المعلومات وإدارة الأعمال. 
+      القسم يقدم برامج تعليمية متطورة تهدف إلى تطوير مهارات الطلاب في مجالات تكنولوجيا المعلومات والتخصصات الإدارية، وذلك باستخدام أحدث الأساليب التعليمية والمناهج المحدثة. 
+      أكاديمية ريتال تسعى دائمًا لتوفير بيئة تعليمية متكاملة تهدف إلى تزويد الطلاب بالمعرفة والمهارات اللازمة للنجاح في سوق العمل العالمي.
+    </p>
+
+    <!-- فيديو الافتتاح -->
+    <div class="video-container">
+      <iframe src="openning.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+  </div>
 
-    <div class="carousel-container">
-      <div class="carousel-track">
-        <img src="images/BTEC6.jpeg" alt="صورة 1" />
-      </div>
-    </div>
+  <!-- تكريم طلبة BTEC الحاصلين على D في الفصل الأول -->
+  <div class="section">
+    <h2>تكريم طلبة BTEC الحاصلين على D في الفصل الأول</h2>
+    <p>
+      تم تكريم مجموعة من الطلبة المبدعين في قسم BTEC الذين حصلوا على درجة D في الفصل الأول، وذلك تقديرًا لجهودهم المتميزة ونتائجهم العالية التي تعكس التزامهم وإصرارهم على التفوق. 
+      تكريم هؤلاء الطلاب يمثل خطوة مهمة في تشجيع روح المنافسة والإبداع داخل الأكاديمية، وهو مؤشر على النجاح الأكاديمي الذي يسعى جميع طلاب الأكاديمية لتحقيقه.
+    </p>
 
-    <div>
-      <a href="departments.html" class="button">رجوع لإنجازات الأقسام</a>
-      <a href="index.html" class="button">العودة إلى الصفحة الرئيسية</a>
+    <!-- فيديو تكريم الطلاب -->
+    <div class="video-container">
+      <iframe src="تكريم.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-  </body>
+  </div>
+
+  <!-- البازار الذي أقامه طلاب إدارة الأعمال -->
+  <div class="section">
+    <h2>بازار طلاب إدارة الأعمال</h2>
+    <p>
+      نظّم طلاب قسم إدارة الأعمال في أكاديمية ريتال الدولية بازارًا ناجحًا، حيث قاموا بعرض مشاريعهم التجارية وأفكارهم المبدعة، مما أتاح لهم فرصة لتطبيق المهارات التي تعلموها في الحياة العملية. 
+      البازار كان بمثابة منصة لعرض المشاريع الريادية والتفاعل مع الزوار، مما عزز من مهارات الطلاب في مجالات التسويق والإدارة والابتكار.
+    </p>
+
+    <!-- فيديو البازار -->
+    <div class="video-container">
+      <iframe src="bazar.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- أزرار العودة -->
+  <div class="buttons">
+    <a href="index.html" class="button">العودة إلى الصفحة الرئيسية</a>
+    <a href="btec.html" class="button">الرجوع إلى قسم BTEC</a>
+  </div>
+
+</body>
 </html>
-
