@@ -59,10 +59,11 @@
     }
 
     .project img {
-      width: 300px;
-      height: 200px;
+      width: 100%; /* الصورة تأخذ عرض العنصر */
+      max-width: 300px; /* الحد الأقصى لعرض الصورة */
+      height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
       border-radius: 10px;
-      object-fit: cover;
+      object-fit: contain; /* تأكد من أن الصورة تظل ضمن الحدود دون التشويه */
     }
 
     .students {
@@ -179,6 +180,12 @@
       </div>
     </div>
     <img src="Y&A.jpeg" alt="يزن الخطيب وأحمد نمر">
+  </div>
+
+  <!-- أزرار العودة -->
+  <div class="buttons">
+    <a href="index.html" class="button">العودة إلى الصفحة الرئيسية</a>
+    <a href="btec.html" class="button">الرجوع إلى قسم BTEC</a>
   </div>
 
 </body>
