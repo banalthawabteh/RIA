@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>SV</title> 
+  <style>
+    body {
+      background-color: #1d2d50;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff7f00;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    .video-container {
+      margin: 20px 0;
+    }
+
+    video {
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .images-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .images-row img {
+      width: 250px; /* حجم موحد للصورة */
+      height: 250px; /* نفس الارتفاع */
+      object-fit: cover; /* لضبط الصور بشكل جيد داخل الإطار */
+      border-radius: 10px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin: 30px 10px;
+      background-color: #ff7f00;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    a.button:hover {
+      background-color: white;
+      color: #1d2d50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>الزيارات الخارجية - SV</h1>
+  </header>
+
+  <!-- الفيديو -->
+  <h2>الزيارات الخارجية</h2>
+  <div class="video-container">
+    <video autoplay muted controls loop>
+      <source src="amanda.mp4" type="video/mp4">
+      متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+  </div>
+
+  <!-- تقييم -->
+  <h2>تقييم</h2>
+  <div class="images-row">
+    <img src="result1.jpeg" alt="تقييم 1">
+    <img src="result2.jpeg" alt="تقييم 2">
+  </div>
+
+  <!-- أزرار الرجوع -->
+  <div>
+    <a href="index.html" class="button"> الصفحة الرئيسية</a>
+    <a href="result_student.html" class="button"> نتائج الطلبة </a>
+  </div>
+
+</body>
+</html>

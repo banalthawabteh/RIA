@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>IT</title>
+  <style>
+    body {
+      background-color: #1d2d50;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ff7f00;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 24px;
+      color: #f5f5f5;
+    }
+
+    .highlight {
+      background-color: #133b5c;
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    .students {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 40px auto;
+      max-width: 1000px;
+    }
+
+    .student {
+      width: 250px;
+      text-align: center;
+    }
+
+    .student img {
+      width: 250px; /* عرض ثابت لجميع الصور */
+      height: 300px; /* ارتفاع ثابت لجميع الصور */
+      object-fit: cover; /* المحافظة على تنسيق الصورة */
+      border-radius: 10px;
+    }
+
+    .student-name {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .buttons {
+      margin: 40px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #ff7f00;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: #1d2d50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>نتائج IT</h1>
+  </header>
+
+  <!-- نص التميز -->
+  <div class="highlight">
+    نفخر بحصول طلبتنا على أعلى تقييم <strong>D</strong> في جميع الواجبات، مما يعكس أداءً استثنائيًا وتفوقًا ملحوظًا.
+  </div>
+
+  <!-- صور وأسماء الطلبة -->
+  <div class="students">
+    <div class="student">
+      <img src="images\yazan.jpeg" alt="يزن الخطيب">
+      <div class="student-name">يزن أحمد الخطيب</div>
+    </div>
+    <div class="student">
+      <img src="images\tala.jpeg" alt="تالا النوباني">
+      <div class="student-name">تالا حسيب النوباني</div>
+    </div>
+    <div class="student">
+      <img src="images\SHATHA.jpeg" alt="شذى الحسن">
+      <div class="student-name">شذى أحمد الحسن</div>
+    </div>
+    <div class="student">
+      <img src="images/GHENA.jpeg" alt="غنى ملحم">
+      <div class="student-name">غنى زياد ملحم</div>
+    </div>
+  </div>
+
+  <!-- أزرار تنقل -->
+  <div class="buttons">
+    <a href="index.html" class="button">الصفحة الرئيسية</a>
+    <a href="result_student.html" class="button">نتائج الطلبة</a>
+  </div>
+
+</body>
+</html>
